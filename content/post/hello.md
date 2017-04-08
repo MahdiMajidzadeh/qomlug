@@ -1,27 +1,18 @@
 +++
-date        = "2013-06-21T11:27:27-04:00"
-title       = "Nitro: A quick and simple profiler for Go"
-description = "Nitro is a simple profiler for your Golang applications"
-tags        = [ "Development", "Go", "profiling" ]
-topics      = [ "Development", "Go" ]
-slug        = "nitro"
-project_url = "https://github.com/spf13/nitro"
+date        = "2017-04-08T12:10:53+04:30"
+title       = "سلام"
+description = "پست شروع"
+tags        = []
+topics      = []
 +++
-# Nitro
 
-Quick and easy performance analyzer library for [Go](http://golang.org/).
+سلام
 
-## Overview
+این پست شروع بلاگ است.
 
-Nitro is a quick and easy performance analyzer library for Go.
-It is useful for comparing A/B against different drafts of functions
-or different functions.
+از اینجا بلاگ قم لاگ شروع به کار می کنه.
 
-## Implementing Nitro
+توضیحات لازم برای گذاشتن محتوا رو توی صفحه [گیت هاب](https://github.com/MahdiMajidzadeh/qomlug) گذاشته شده.
 
-Using Nitro is simple. First, use `go get` to install the latest version
-of the library.
+همچنین از این صفحه می تونید به عنوان الگو برای ایجاد صفحه های دیگه استفاده کنید(در صورتی که نمیخواید هوگو رو نصب کنید)
 
-    $ go get github.com/spf13/nitro
-
-Next, include nitro in your application.

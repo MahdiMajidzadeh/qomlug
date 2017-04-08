@@ -4,4 +4,4 @@ title = "درباره ما"
 
 +++
 
-Lorem ipsum dolor sit amet.
+اینجا درباره ما نصب می شود.
