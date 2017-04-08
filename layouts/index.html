@@ -2,20 +2,48 @@
 
 <main class="content" role="main">
 
-  <div class="archive">
+<!--   <div class="archive">
     {{ range (where .Data.Pages "Type" "post").GroupByDate "2006" }}
     <h2 class="archive-title">{{ .Key }}</h2>
     {{ range .Pages }}
     <article class="archive-item">
       <a href="{{ .Permalink }}" class="archive-item-link">{{ .Title }}</a>
+       {{ .Render "summary"}}
       <span class="archive-item-date">
         {{ .Date.Format "January 2, 2006" }}
       </span>
     </article>
     {{ end }}
     {{ end }}
-  </div>
+  </div> -->
 
+  <div class="archive">
+    {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
+    {{ range $paginator.Pages }}
+    <article class="archive-item">
+      <a href="{{ .Permalink }}" class="archive-item-link">{{ .Title }}</a> 
+      <span class="archive-item-date">
+        {{ .Date.Format "January 2, 2006" }}
+      </span>
+      <div class="archive-content">
+        {{ .Summary }}
+      </div>
+
+    </article>
+    {{ end }}
+  </div>
+  <div class="row">
+    <div class="twelve columns">
+      <center>
+        {{ with $paginator.HasPrev }}
+        <a href="{{ $paginator.Prev.URL }}" class="arrow-link"><i class="fa fa-arrow-circle-left fa-2x"></i></a>
+        {{ end }}
+        {{ with $paginator.HasNext }}
+        <a href="{{ $paginator.Next.URL }}" class="arrow-link"><i class="fa fa-arrow-circle-right fa-2x"></i></a>
+        {{ end }}
+      </center>
+    </div>
+  </div>
 </main>
 
 {{ partial "footer.html" . }}

@@ -1,29 +1,29 @@
 baseurl = "https://example.org"
-languageCode = "en-us"
-title = "Lithium Theme"
+languageCode = "fa-ir"
+title = "قم لاگ"
 theme = "hugo-lithium-theme"
 googleAnalytics = ""
 disqusShortname = ""
 
 [permalinks]
-    post = "/:year/:month/:day/:title/"
-    page = "/:title/"
+    post = "/:year/:month/:day/:filename/"
+    page = "/:filename/"
 
 [[menu.main]]
-    name = "About"
+    name = "درباره ما"
     url = "/about/"
 [[menu.main]]
-    name = "GitHub"
-    url = ""
+    name = "تلگرام"
+    url = "https://t.me/qomlug"
 [[menu.main]]
-    name = "Twitter"
-    url = ""
+    name = "جلسات"
+    url = "/meetting/"
 
 [params]
     description = ""
 
     [params.logo]
-    url = "logo.png"
+    url = "logo.jpg"
     width = 50
     height = 50
     alt = "Logo"
