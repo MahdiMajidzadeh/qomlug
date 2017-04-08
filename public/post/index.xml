@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on قم لاگ</title>
+    <link>https://mahdimajidzadeh.github.io/qomlug/post/index.xml</link>
+    <description>Recent content in Posts on قم لاگ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fa-ir</language>
+    <lastBuildDate>Sat, 08 Apr 2017 12:10:53 +0430</lastBuildDate>
+    <atom:link href="https://mahdimajidzadeh.github.io/qomlug/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>سلام</title>
+      <link>https://mahdimajidzadeh.github.io/qomlug/2017/04/08/hello/</link>
+      <pubDate>Sat, 08 Apr 2017 12:10:53 +0430</pubDate>
+      
+      <guid>https://mahdimajidzadeh.github.io/qomlug/2017/04/08/hello/</guid>
+      <description>&lt;p&gt;سلام&lt;/p&gt;
+
+&lt;p&gt;این پست شروع بلاگ است.&lt;/p&gt;
+
+&lt;p&gt;از اینجا بلاگ قم لاگ شروع به کار می کنه.&lt;/p&gt;
+
+&lt;p&gt;توضیحات لازم برای گذاشتن محتوا رو توی صفحه &lt;a href=&#34;https://github.com/MahdiMajidzadeh/qomlug&#34;&gt;گیت هاب&lt;/a&gt; گذاشته شده.&lt;/p&gt;
+
+&lt;p&gt;همچنین از این صفحه می تونید به عنوان الگو برای ایجاد صفحه های دیگه استفاده کنید(در صورتی که نمیخواید هوگو رو نصب کنید)&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

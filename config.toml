@@ -1,4 +1,4 @@
-baseurl = "https://example.org"
+baseurl = "https://mahdimajidzadeh.github.io/qomlug/"
 languageCode = "fa-ir"
 title = "قم لاگ"
 theme = "hugo-lithium-theme"
