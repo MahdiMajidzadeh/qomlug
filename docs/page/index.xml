@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on قم لاگ</title>
+    <link>https://mahdimajidzadeh.github.io/qomlug/page/index.xml</link>
+    <description>Recent content in Pages on قم لاگ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fa-ir</language>
+    <lastBuildDate>Sat, 08 Apr 2017 13:06:11 +0430</lastBuildDate>
+    <atom:link href="https://mahdimajidzadeh.github.io/qomlug/page/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>جلسات</title>
+      <link>https://mahdimajidzadeh.github.io/qomlug/meetting/</link>
+      <pubDate>Sat, 08 Apr 2017 13:06:11 +0430</pubDate>
+      
+      <guid>https://mahdimajidzadeh.github.io/qomlug/meetting/</guid>
+      <description>&lt;p&gt;جلسات لاگ به صورت نامنظم هر چند وقت یه بار برگزار می شود.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>درباره ما</title>
+      <link>https://mahdimajidzadeh.github.io/qomlug/about/</link>
+      <pubDate>Thu, 05 May 2016 21:48:51 -0700</pubDate>
+      
+      <guid>https://mahdimajidzadeh.github.io/qomlug/about/</guid>
+      <description>&lt;p&gt;اینجا درباره ما نصب می شود.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
